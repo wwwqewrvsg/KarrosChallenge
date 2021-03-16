@@ -6,28 +6,69 @@
 //
 
 import Foundation
+import Moya
+import Alamofire
 
-enum API {
+enum APIConfigs {
     static let baseURL = "https://api.themoviedb.org/3"
     static let key = "be9c5f008cf22006b2b17d5c37fef223"
     static let language = "en-US"
-    
-    enum MovieListPath: String {
-        case upComing = "/movie/upcoming"
-        case topRated = "/movie/top_rated"
-        case popular = "/movie/popular"
-        case trending = "/trending/movie/day"
+}
+
+enum MovieAPI {
+    case upComing(page: Int)
+    case topRated(page: Int)
+    case popular(page: Int)
+    case trending
+}
+
+extension MovieAPI: TargetType {
+    var baseURL: URL {
+        guard let url = URL(string: APIConfigs.baseURL) else {
+            fatalError("ERROR: Middleware URL invalid")
+        }
+        return url
     }
     
-    static func getPath(path: String) -> String {
-        return path + "?" + API.apiKeyParameter() + API.getLanguageParameter()
+    var path: String {
+        switch self {
+        case .upComing:
+            return "/movie/upcoming"
+        case .topRated:
+            return "/movie/top_rated"
+        case .popular:
+            return "/movie/popular"
+        case .trending:
+            return "/trending/movie/day"
+        }
     }
     
-    static func apiKeyParameter() -> String {
-        return "api_key=" + API.key
+    var method: Alamofire.HTTPMethod {
+        return .get
     }
     
-    static func getLanguageParameter() -> String {
-        return "language=" + API.language
+    var sampleData: Data {
+        return Data()
+    }
+    
+    var task: Task {
+        return .requestParameters(parameters: urlParameters, encoding: JSONEncoding.default)
+    }
+    
+    var headers: [String : String]? {
+        return nil
+    }
+    
+    var urlParameters: [String: Any] {
+        var body: [String: Any] = [:]
+        switch self {
+        case .upComing(let page), .topRated(let page), .popular(let page):
+            body["api_key"] = APIConfigs.key
+            body["language"] = APIConfigs.language
+            body["page"] = page
+        case .trending:
+            body["api_key"] = APIConfigs.key
+        }
+        return body
     }
 }

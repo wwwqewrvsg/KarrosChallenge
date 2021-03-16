@@ -31,6 +31,7 @@
 		CD297DA12600BE1700DF513A /* ReusAbleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297DA02600BE1700DF513A /* ReusAbleCell.swift */; };
 		CD297DAA2600C00600DF513A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297DA92600C00600DF513A /* API.swift */; };
 		CD297DAF2600C43600DF513A /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297DAE2600C43600DF513A /* MediaType.swift */; };
+		CD297DB42600C63C00DF513A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297DB32600C63C00DF513A /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		CD297DA02600BE1700DF513A /* ReusAbleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusAbleCell.swift; sourceTree = "<group>"; };
 		CD297DA92600C00600DF513A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		CD297DAE2600C43600DF513A /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
+		CD297DB32600C63C00DF513A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				CD297DA92600C00600DF513A /* API.swift */,
+				CD297DB32600C63C00DF513A /* Service.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -495,6 +498,7 @@
 				CD297CA42600982500DF513A /* SceneDelegate.swift in Sources */,
 				CD297DAA2600C00600DF513A /* API.swift in Sources */,
 				CD297D762600B57600DF513A /* Dates.swift in Sources */,
+				CD297DB42600C63C00DF513A /* Service.swift in Sources */,
 				CD297D822600BBD400DF513A /* UIDevice+Utils.swift in Sources */,
 				CD297D8A2600BC0200DF513A /* NSLayoutConstraintHelpers.swift in Sources */,
 				CD297D712600B4E500DF513A /* OriginalLanguage.swift in Sources */,
