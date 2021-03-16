@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C644F0126E8B81AFBB0663C /* Pods_KarrosChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93212431BB0D9B1561F39456 /* Pods_KarrosChallenge.framework */; };
+		4F3DCF82590C31229C0C3927 /* Pods_KarrosChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A272D9A277B319E4313A004 /* Pods_KarrosChallengeTests.framework */; };
+		77E24B1F7DF7AE2243C40C02 /* Pods_KarrosChallenge_KarrosChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A7A1A96EFC309D74868C0B /* Pods_KarrosChallenge_KarrosChallengeUITests.framework */; };
+		CD297CA22600982500DF513A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297CA12600982500DF513A /* AppDelegate.swift */; };
+		CD297CA42600982500DF513A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297CA32600982500DF513A /* SceneDelegate.swift */; };
+		CD297CA62600982500DF513A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297CA52600982500DF513A /* ViewController.swift */; };
+		CD297CA92600982500DF513A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD297CA72600982500DF513A /* Main.storyboard */; };
+		CD297CAB2600982C00DF513A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD297CAA2600982C00DF513A /* Assets.xcassets */; };
+		CD297CAE2600982C00DF513A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD297CAC2600982C00DF513A /* LaunchScreen.storyboard */; };
+		CD297CB92600982C00DF513A /* KarrosChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297CB82600982C00DF513A /* KarrosChallengeTests.swift */; };
+		CD297CC42600982D00DF513A /* KarrosChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297CC32600982D00DF513A /* KarrosChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD297CB52600982C00DF513A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD297C962600982500DF513A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD297C9D2600982500DF513A;
+			remoteInfo = KarrosChallenge;
+		};
+		CD297CC02600982D00DF513A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD297C962600982500DF513A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD297C9D2600982500DF513A;
+			remoteInfo = KarrosChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A272D9A277B319E4313A004 /* Pods_KarrosChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KarrosChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A7A1A96EFC309D74868C0B /* Pods_KarrosChallenge_KarrosChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KarrosChallenge_KarrosChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E98886E5F1E7BF00A0F0B60 /* Pods-KarrosChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarrosChallenge.release.xcconfig"; path = "Target Support Files/Pods-KarrosChallenge/Pods-KarrosChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		5EFDA24C7EECD3DDFA77439C /* Pods-KarrosChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarrosChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-KarrosChallengeTests/Pods-KarrosChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F267F52C438F89D0129AB17 /* Pods-KarrosChallenge-KarrosChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarrosChallenge-KarrosChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-KarrosChallenge-KarrosChallengeUITests/Pods-KarrosChallenge-KarrosChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8237E3A7E76F97CE77CD71E2 /* Pods-KarrosChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarrosChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-KarrosChallengeTests/Pods-KarrosChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		93212431BB0D9B1561F39456 /* Pods_KarrosChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KarrosChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A300B747C76E1718F6C12E0 /* Pods-KarrosChallenge-KarrosChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarrosChallenge-KarrosChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-KarrosChallenge-KarrosChallengeUITests/Pods-KarrosChallenge-KarrosChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C87D48648E567D80DD7D8895 /* Pods-KarrosChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarrosChallenge.debug.xcconfig"; path = "Target Support Files/Pods-KarrosChallenge/Pods-KarrosChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		CD297C9E2600982500DF513A /* KarrosChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KarrosChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD297CA12600982500DF513A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD297CA32600982500DF513A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD297CA52600982500DF513A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD297CA82600982500DF513A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD297CAA2600982C00DF513A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD297CAD2600982C00DF513A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD297CAF2600982C00DF513A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD297CB42600982C00DF513A /* KarrosChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarrosChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD297CB82600982C00DF513A /* KarrosChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarrosChallengeTests.swift; sourceTree = "<group>"; };
+		CD297CBA2600982C00DF513A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD297CBF2600982D00DF513A /* KarrosChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarrosChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD297CC32600982D00DF513A /* KarrosChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarrosChallengeUITests.swift; sourceTree = "<group>"; };
+		CD297CC52600982D00DF513A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD297C9B2600982500DF513A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C644F0126E8B81AFBB0663C /* Pods_KarrosChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD297CB12600982C00DF513A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3DCF82590C31229C0C3927 /* Pods_KarrosChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD297CBC2600982C00DF513A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E24B1F7DF7AE2243C40C02 /* Pods_KarrosChallenge_KarrosChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49A02F764405AB882A0870D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93212431BB0D9B1561F39456 /* Pods_KarrosChallenge.framework */,
+				56A7A1A96EFC309D74868C0B /* Pods_KarrosChallenge_KarrosChallengeUITests.framework */,
+				2A272D9A277B319E4313A004 /* Pods_KarrosChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C9A2C404A0958FE0D3FCA71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C87D48648E567D80DD7D8895 /* Pods-KarrosChallenge.debug.xcconfig */,
+				5E98886E5F1E7BF00A0F0B60 /* Pods-KarrosChallenge.release.xcconfig */,
+				9A300B747C76E1718F6C12E0 /* Pods-KarrosChallenge-KarrosChallengeUITests.debug.xcconfig */,
+				5F267F52C438F89D0129AB17 /* Pods-KarrosChallenge-KarrosChallengeUITests.release.xcconfig */,
+				5EFDA24C7EECD3DDFA77439C /* Pods-KarrosChallengeTests.debug.xcconfig */,
+				8237E3A7E76F97CE77CD71E2 /* Pods-KarrosChallengeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD297C952600982500DF513A = {
+			isa = PBXGroup;
+			children = (
+				CD297CA02600982500DF513A /* KarrosChallenge */,
+				CD297CB72600982C00DF513A /* KarrosChallengeTests */,
+				CD297CC22600982D00DF513A /* KarrosChallengeUITests */,
+				CD297C9F2600982500DF513A /* Products */,
+				9C9A2C404A0958FE0D3FCA71 /* Pods */,
+				49A02F764405AB882A0870D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD297C9F2600982500DF513A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD297C9E2600982500DF513A /* KarrosChallenge.app */,
+				CD297CB42600982C00DF513A /* KarrosChallengeTests.xctest */,
+				CD297CBF2600982D00DF513A /* KarrosChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD297CA02600982500DF513A /* KarrosChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				CD297CA12600982500DF513A /* AppDelegate.swift */,
+				CD297CA32600982500DF513A /* SceneDelegate.swift */,
+				CD297CA52600982500DF513A /* ViewController.swift */,
+				CD297CA72600982500DF513A /* Main.storyboard */,
+				CD297CAA2600982C00DF513A /* Assets.xcassets */,
+				CD297CAC2600982C00DF513A /* LaunchScreen.storyboard */,
+				CD297CAF2600982C00DF513A /* Info.plist */,
+			);
+			path = KarrosChallenge;
+			sourceTree = "<group>";
+		};
+		CD297CB72600982C00DF513A /* KarrosChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD297CB82600982C00DF513A /* KarrosChallengeTests.swift */,
+				CD297CBA2600982C00DF513A /* Info.plist */,
+			);
+			path = KarrosChallengeTests;
+			sourceTree = "<group>";
+		};
+		CD297CC22600982D00DF513A /* KarrosChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD297CC32600982D00DF513A /* KarrosChallengeUITests.swift */,
+				CD297CC52600982D00DF513A /* Info.plist */,
+			);
+			path = KarrosChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD297C9D2600982500DF513A /* KarrosChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD297CC82600982D00DF513A /* Build configuration list for PBXNativeTarget "KarrosChallenge" */;
+			buildPhases = (
+				8FE45D2659B955EEE8596FED /* [CP] Check Pods Manifest.lock */,
+				CD297C9A2600982500DF513A /* Sources */,
+				CD297C9B2600982500DF513A /* Frameworks */,
+				CD297C9C2600982500DF513A /* Resources */,
+				9FE112741D2746BA6C7AAD54 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KarrosChallenge;
+			productName = KarrosChallenge;
+			productReference = CD297C9E2600982500DF513A /* KarrosChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD297CB32600982C00DF513A /* KarrosChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD297CCB2600982D00DF513A /* Build configuration list for PBXNativeTarget "KarrosChallengeTests" */;
+			buildPhases = (
+				570B3D9CAB533397306C1BF0 /* [CP] Check Pods Manifest.lock */,
+				CD297CB02600982C00DF513A /* Sources */,
+				CD297CB12600982C00DF513A /* Frameworks */,
+				CD297CB22600982C00DF513A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD297CB62600982C00DF513A /* PBXTargetDependency */,
+			);
+			name = KarrosChallengeTests;
+			productName = KarrosChallengeTests;
+			productReference = CD297CB42600982C00DF513A /* KarrosChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD297CBE2600982C00DF513A /* KarrosChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD297CCE2600982D00DF513A /* Build configuration list for PBXNativeTarget "KarrosChallengeUITests" */;
+			buildPhases = (
+				9AD8ABB6172C745486AB4CCF /* [CP] Check Pods Manifest.lock */,
+				CD297CBB2600982C00DF513A /* Sources */,
+				CD297CBC2600982C00DF513A /* Frameworks */,
+				CD297CBD2600982C00DF513A /* Resources */,
+				3398340D271DC473F809809A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD297CC12600982D00DF513A /* PBXTargetDependency */,
+			);
+			name = KarrosChallengeUITests;
+			productName = KarrosChallengeUITests;
+			productReference = CD297CBF2600982D00DF513A /* KarrosChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD297C962600982500DF513A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CD297C9D2600982500DF513A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CD297CB32600982C00DF513A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CD297C9D2600982500DF513A;
+					};
+					CD297CBE2600982C00DF513A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CD297C9D2600982500DF513A;
+					};
+				};
+			};
+			buildConfigurationList = CD297C992600982500DF513A /* Build configuration list for PBXProject "KarrosChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD297C952600982500DF513A;
+			productRefGroup = CD297C9F2600982500DF513A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD297C9D2600982500DF513A /* KarrosChallenge */,
+				CD297CB32600982C00DF513A /* KarrosChallengeTests */,
+				CD297CBE2600982C00DF513A /* KarrosChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD297C9C2600982500DF513A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD297CAE2600982C00DF513A /* LaunchScreen.storyboard in Resources */,
+				CD297CAB2600982C00DF513A /* Assets.xcassets in Resources */,
+				CD297CA92600982500DF513A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD297CB22600982C00DF513A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD297CBD2600982C00DF513A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3398340D271DC473F809809A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KarrosChallenge-KarrosChallengeUITests/Pods-KarrosChallenge-KarrosChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KarrosChallenge-KarrosChallengeUITests/Pods-KarrosChallenge-KarrosChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KarrosChallenge-KarrosChallengeUITests/Pods-KarrosChallenge-KarrosChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		570B3D9CAB533397306C1BF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KarrosChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FE45D2659B955EEE8596FED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KarrosChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AD8ABB6172C745486AB4CCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KarrosChallenge-KarrosChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FE112741D2746BA6C7AAD54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KarrosChallenge/Pods-KarrosChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KarrosChallenge/Pods-KarrosChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KarrosChallenge/Pods-KarrosChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD297C9A2600982500DF513A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD297CA62600982500DF513A /* ViewController.swift in Sources */,
+				CD297CA22600982500DF513A /* AppDelegate.swift in Sources */,
+				CD297CA42600982500DF513A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD297CB02600982C00DF513A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD297CB92600982C00DF513A /* KarrosChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD297CBB2600982C00DF513A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD297CC42600982D00DF513A /* KarrosChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD297CB62600982C00DF513A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD297C9D2600982500DF513A /* KarrosChallenge */;
+			targetProxy = CD297CB52600982C00DF513A /* PBXContainerItemProxy */;
+		};
+		CD297CC12600982D00DF513A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD297C9D2600982500DF513A /* KarrosChallenge */;
+			targetProxy = CD297CC02600982D00DF513A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD297CA72600982500DF513A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD297CA82600982500DF513A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD297CAC2600982C00DF513A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD297CAD2600982C00DF513A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD297CC62600982D00DF513A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD297CC72600982D00DF513A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD297CC92600982D00DF513A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C87D48648E567D80DD7D8895 /* Pods-KarrosChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KarrosChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.KarrosChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD297CCA2600982D00DF513A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E98886E5F1E7BF00A0F0B60 /* Pods-KarrosChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KarrosChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.KarrosChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD297CCC2600982D00DF513A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EFDA24C7EECD3DDFA77439C /* Pods-KarrosChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KarrosChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.KarrosChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KarrosChallenge.app/KarrosChallenge";
+			};
+			name = Debug;
+		};
+		CD297CCD2600982D00DF513A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8237E3A7E76F97CE77CD71E2 /* Pods-KarrosChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KarrosChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.KarrosChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KarrosChallenge.app/KarrosChallenge";
+			};
+			name = Release;
+		};
+		CD297CCF2600982D00DF513A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A300B747C76E1718F6C12E0 /* Pods-KarrosChallenge-KarrosChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KarrosChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.KarrosChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KarrosChallenge;
+			};
+			name = Debug;
+		};
+		CD297CD02600982D00DF513A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F267F52C438F89D0129AB17 /* Pods-KarrosChallenge-KarrosChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KarrosChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.KarrosChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KarrosChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD297C992600982500DF513A /* Build configuration list for PBXProject "KarrosChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD297CC62600982D00DF513A /* Debug */,
+				CD297CC72600982D00DF513A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD297CC82600982D00DF513A /* Build configuration list for PBXNativeTarget "KarrosChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD297CC92600982D00DF513A /* Debug */,
+				CD297CCA2600982D00DF513A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD297CCB2600982D00DF513A /* Build configuration list for PBXNativeTarget "KarrosChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD297CCC2600982D00DF513A /* Debug */,
+				CD297CCD2600982D00DF513A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD297CCE2600982D00DF513A /* Build configuration list for PBXNativeTarget "KarrosChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD297CCF2600982D00DF513A /* Debug */,
+				CD297CD02600982D00DF513A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD297C962600982500DF513A /* Project object */;
+}

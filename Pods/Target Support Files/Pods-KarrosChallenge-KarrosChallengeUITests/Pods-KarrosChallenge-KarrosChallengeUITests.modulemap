@@ -1,0 +1,6 @@
+framework module Pods_KarrosChallenge_KarrosChallengeUITests {
+  umbrella header "Pods-KarrosChallenge-KarrosChallengeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
