@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (5.4.1)
   - Differentiator (4.0.1)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
@@ -20,6 +21,7 @@ PODS:
     - RxSwiftExt/Core
 
 DEPENDENCIES:
+  - Alamofire (~> 5.2)
   - RxCocoa (~> 5)
   - RxDataSources
   - RxSwift (~> 5)
@@ -27,6 +29,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - Differentiator
     - RxCocoa
     - RxDataSources
@@ -35,6 +38,7 @@ SPEC REPOS:
     - RxSwiftExt
 
 SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
@@ -42,6 +46,6 @@ SPEC CHECKSUMS:
   RxSwift: 1e2e1f9570186967f617e49128ed26ccf1bafc8e
   RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
 
-PODFILE CHECKSUM: b55994b516253d41db3fa22e6c8f8fd0f2ff4b0f
+PODFILE CHECKSUM: 7ff3f8b46c2894dc6a8d7900b66fdca63c1447de
 
 COCOAPODS: 1.10.1

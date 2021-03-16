@@ -21,4 +21,5 @@ target 'KarrosChallenge' do
   pod 'RxCocoa', '~> 5'
   pod 'RxSwiftExt'
   pod 'RxDataSources'
+  pod 'Alamofire', '~> 5.2'
 end
