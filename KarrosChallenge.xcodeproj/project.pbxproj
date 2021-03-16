@@ -19,10 +19,18 @@
 		CD297CB92600982C00DF513A /* KarrosChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297CB82600982C00DF513A /* KarrosChallengeTests.swift */; };
 		CD297CC42600982D00DF513A /* KarrosChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297CC32600982D00DF513A /* KarrosChallengeUITests.swift */; };
 		CD297CEC2600ABC700DF513A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CD297CEB2600ABC700DF513A /* README.md */; };
-		CD297D612600B47B00DF513A /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297D602600B47B00DF513A /* MovieList.swift */; };
-		CD297D6C2600B4C700DF513A /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297D6B2600B4C700DF513A /* Movie.swift */; };
+		CD297D612600B47B00DF513A /* MediaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297D602600B47B00DF513A /* MediaList.swift */; };
+		CD297D6C2600B4C700DF513A /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297D6B2600B4C700DF513A /* Media.swift */; };
 		CD297D712600B4E500DF513A /* OriginalLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297D702600B4E500DF513A /* OriginalLanguage.swift */; };
 		CD297D762600B57600DF513A /* Dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297D752600B57600DF513A /* Dates.swift */; };
+		CD297D7D2600BB6300DF513A /* UICollectionView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297D7C2600BB6300DF513A /* UICollectionView+Utils.swift */; };
+		CD297D822600BBD400DF513A /* UIDevice+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297D812600BBD400DF513A /* UIDevice+Utils.swift */; };
+		CD297D8A2600BC0200DF513A /* NSLayoutConstraintHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297D892600BC0200DF513A /* NSLayoutConstraintHelpers.swift */; };
+		CD297D902600BC4D00DF513A /* BaseCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297D8F2600BC4D00DF513A /* BaseCollectionView.swift */; };
+		CD297D992600BD1500DF513A /* NSObject+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297D982600BD1500DF513A /* NSObject+Utils.swift */; };
+		CD297DA12600BE1700DF513A /* ReusAbleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297DA02600BE1700DF513A /* ReusAbleCell.swift */; };
+		CD297DAA2600C00600DF513A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297DA92600C00600DF513A /* API.swift */; };
+		CD297DAF2600C43600DF513A /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297DAE2600C43600DF513A /* MediaType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,10 +75,18 @@
 		CD297CC32600982D00DF513A /* KarrosChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarrosChallengeUITests.swift; sourceTree = "<group>"; };
 		CD297CC52600982D00DF513A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD297CEB2600ABC700DF513A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		CD297D602600B47B00DF513A /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
-		CD297D6B2600B4C700DF513A /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		CD297D602600B47B00DF513A /* MediaList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaList.swift; sourceTree = "<group>"; };
+		CD297D6B2600B4C700DF513A /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
 		CD297D702600B4E500DF513A /* OriginalLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalLanguage.swift; sourceTree = "<group>"; };
 		CD297D752600B57600DF513A /* Dates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dates.swift; sourceTree = "<group>"; };
+		CD297D7C2600BB6300DF513A /* UICollectionView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Utils.swift"; sourceTree = "<group>"; };
+		CD297D812600BBD400DF513A /* UIDevice+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Utils.swift"; sourceTree = "<group>"; };
+		CD297D892600BC0200DF513A /* NSLayoutConstraintHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintHelpers.swift; sourceTree = "<group>"; };
+		CD297D8F2600BC4D00DF513A /* BaseCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionView.swift; sourceTree = "<group>"; };
+		CD297D982600BD1500DF513A /* NSObject+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Utils.swift"; sourceTree = "<group>"; };
+		CD297DA02600BE1700DF513A /* ReusAbleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusAbleCell.swift; sourceTree = "<group>"; };
+		CD297DA92600C00600DF513A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		CD297DAE2600C43600DF513A /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +166,10 @@
 			isa = PBXGroup;
 			children = (
 				CD297CEB2600ABC700DF513A /* README.md */,
+				CD297DA82600BFA400DF513A /* Services */,
+				CD297D8E2600BC0F00DF513A /* Helpers */,
+				CD297D7B2600BB4900DF513A /* Utils */,
+				CD297D7A2600BA1200DF513A /* View */,
 				CD297CE72600A98B00DF513A /* Model */,
 				CD297CA12600982500DF513A /* AppDelegate.swift */,
 				CD297CA32600982500DF513A /* SceneDelegate.swift */,
@@ -183,12 +203,48 @@
 		CD297CE72600A98B00DF513A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CD297D602600B47B00DF513A /* MovieList.swift */,
-				CD297D6B2600B4C700DF513A /* Movie.swift */,
+				CD297D602600B47B00DF513A /* MediaList.swift */,
+				CD297D6B2600B4C700DF513A /* Media.swift */,
 				CD297D702600B4E500DF513A /* OriginalLanguage.swift */,
 				CD297D752600B57600DF513A /* Dates.swift */,
+				CD297DAE2600C43600DF513A /* MediaType.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CD297D7A2600BA1200DF513A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD297D8F2600BC4D00DF513A /* BaseCollectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD297D7B2600BB4900DF513A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CD297D7C2600BB6300DF513A /* UICollectionView+Utils.swift */,
+				CD297D812600BBD400DF513A /* UIDevice+Utils.swift */,
+				CD297D982600BD1500DF513A /* NSObject+Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CD297D8E2600BC0F00DF513A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CD297D892600BC0200DF513A /* NSLayoutConstraintHelpers.swift */,
+				CD297DA02600BE1700DF513A /* ReusAbleCell.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CD297DA82600BFA400DF513A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CD297DA92600C00600DF513A /* API.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,13 +486,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD297D612600B47B00DF513A /* MovieList.swift in Sources */,
+				CD297DAF2600C43600DF513A /* MediaType.swift in Sources */,
+				CD297D7D2600BB6300DF513A /* UICollectionView+Utils.swift in Sources */,
+				CD297D612600B47B00DF513A /* MediaList.swift in Sources */,
 				CD297CA62600982500DF513A /* ViewController.swift in Sources */,
+				CD297D992600BD1500DF513A /* NSObject+Utils.swift in Sources */,
 				CD297CA22600982500DF513A /* AppDelegate.swift in Sources */,
 				CD297CA42600982500DF513A /* SceneDelegate.swift in Sources */,
+				CD297DAA2600C00600DF513A /* API.swift in Sources */,
 				CD297D762600B57600DF513A /* Dates.swift in Sources */,
+				CD297D822600BBD400DF513A /* UIDevice+Utils.swift in Sources */,
+				CD297D8A2600BC0200DF513A /* NSLayoutConstraintHelpers.swift in Sources */,
 				CD297D712600B4E500DF513A /* OriginalLanguage.swift in Sources */,
-				CD297D6C2600B4C700DF513A /* Movie.swift in Sources */,
+				CD297D902600BC4D00DF513A /* BaseCollectionView.swift in Sources */,
+				CD297DA12600BE1700DF513A /* ReusAbleCell.swift in Sources */,
+				CD297D6C2600B4C700DF513A /* Media.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

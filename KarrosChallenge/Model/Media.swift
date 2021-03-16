@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - Result
-struct Movie: Codable {
+struct Media: Codable {
     let posterPath: String?
     let adult: Bool?
     let overview, releaseDate: String?
@@ -21,6 +21,7 @@ struct Movie: Codable {
     let voteCount: Int?
     let video: Bool?
     let voteAverage: Double?
+    let mediaType: MediaType?
 
     enum CodingKeys: String, CodingKey {
         case posterPath = "poster_path"
@@ -36,5 +37,6 @@ struct Movie: Codable {
         case voteCount = "vote_count"
         case video
         case voteAverage = "vote_average"
+        case mediaType = "media_type"
     }
 }

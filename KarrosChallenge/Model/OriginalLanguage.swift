@@ -13,4 +13,5 @@ enum OriginalLanguage: String, Codable {
     case it = "it"
     case ja = "ja"
     case zh = "zh"
+    case tr = "tr"
 }

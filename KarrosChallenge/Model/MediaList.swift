@@ -1,5 +1,5 @@
 //
-//  MovieList.swift
+//  MediaList.swift
 //  KarrosChallenge
 //
 //  Created by Nguyen Duc on 16/03/2021.
@@ -8,9 +8,9 @@
 import Foundation
 
 // MARK: - TopRatedMovies
-struct MovieList: Codable {
+struct MediaList: Codable {
     let page: Int?
-    let results: [Movie]?
+    let results: [Media]?
     let totalResults, totalPages: Int?
 
     enum CodingKeys: String, CodingKey {
