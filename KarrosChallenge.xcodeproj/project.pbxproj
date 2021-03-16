@@ -19,6 +19,10 @@
 		CD297CB92600982C00DF513A /* KarrosChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297CB82600982C00DF513A /* KarrosChallengeTests.swift */; };
 		CD297CC42600982D00DF513A /* KarrosChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297CC32600982D00DF513A /* KarrosChallengeUITests.swift */; };
 		CD297CEC2600ABC700DF513A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CD297CEB2600ABC700DF513A /* README.md */; };
+		CD297D612600B47B00DF513A /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297D602600B47B00DF513A /* MovieList.swift */; };
+		CD297D6C2600B4C700DF513A /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297D6B2600B4C700DF513A /* Movie.swift */; };
+		CD297D712600B4E500DF513A /* OriginalLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297D702600B4E500DF513A /* OriginalLanguage.swift */; };
+		CD297D762600B57600DF513A /* Dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297D752600B57600DF513A /* Dates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		CD297CC32600982D00DF513A /* KarrosChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarrosChallengeUITests.swift; sourceTree = "<group>"; };
 		CD297CC52600982D00DF513A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD297CEB2600ABC700DF513A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		CD297D602600B47B00DF513A /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
+		CD297D6B2600B4C700DF513A /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		CD297D702600B4E500DF513A /* OriginalLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalLanguage.swift; sourceTree = "<group>"; };
+		CD297D752600B57600DF513A /* Dates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +183,10 @@
 		CD297CE72600A98B00DF513A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CD297D602600B47B00DF513A /* MovieList.swift */,
+				CD297D6B2600B4C700DF513A /* Movie.swift */,
+				CD297D702600B4E500DF513A /* OriginalLanguage.swift */,
+				CD297D752600B57600DF513A /* Dates.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -418,9 +430,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD297D612600B47B00DF513A /* MovieList.swift in Sources */,
 				CD297CA62600982500DF513A /* ViewController.swift in Sources */,
 				CD297CA22600982500DF513A /* AppDelegate.swift in Sources */,
 				CD297CA42600982500DF513A /* SceneDelegate.swift in Sources */,
+				CD297D762600B57600DF513A /* Dates.swift in Sources */,
+				CD297D712600B4E500DF513A /* OriginalLanguage.swift in Sources */,
+				CD297D6C2600B4C700DF513A /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
