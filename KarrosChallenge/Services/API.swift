@@ -49,6 +49,12 @@ extension MovieAPI: TargetType {
     }
     
     var sampleData: Data {
+        switch self {
+        case .upComing:
+            return UpComingSampleData.data
+        default:
+            break
+        }
         return Data()
     }
     

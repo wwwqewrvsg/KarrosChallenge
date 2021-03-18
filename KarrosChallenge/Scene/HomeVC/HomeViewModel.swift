@@ -7,15 +7,20 @@
 
 import Foundation
 import RxSwift
+import Moya
 import SwiftyBeaver
 
 class HomeViewModel {
-    private let movieService = MoviveService()
+    private var movieService: MovieService
 
     let disposeBag = DisposeBag()
     let upComingMovies = BehaviorSubject<MediaList?>(value: nil)
 
     private(set) var upComingPage: Int = 0
+
+    init(service: MovieService) {
+        movieService = service
+    }
 
     func fetchUpComingMovies() {
         upComingPage += 1

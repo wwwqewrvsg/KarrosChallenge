@@ -10,23 +10,10 @@ import Moya
 import Alamofire
 import RxSwift
 
-protocol Service {
+protocol Service: class {
     associatedtype Target: TargetType
-    var provider: MoyaProvider<Target> { get }
+    var provider: MoyaProvider<Target> { get set }
 
     func initialize()
     func fetchUpComing(page: Int) -> Single<MediaList>
-}
-
-class MoviveService: Service {
-    var provider = MoyaProvider<MovieAPI>()
-
-    func initialize() {
-        
-    }
-
-    func fetchUpComing(page: Int) -> Single<MediaList> {
-        let request = MovieAPI.upComing(page: page)
-        return provider.rx.request(request).map(MediaList.self)
-    }
 }
