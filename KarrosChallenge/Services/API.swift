@@ -13,6 +13,7 @@ enum APIConfigs {
     static let baseURL = "https://api.themoviedb.org/3"
     static let key = "be9c5f008cf22006b2b17d5c37fef223"
     static let language = "en-US"
+    static let accessToken = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiZTljNWYwMDhjZjIyMDA2YjJiMTdkNWMzN2ZlZjIyMyIsInN1YiI6IjYwNTA3MjhmOTc2YTIzMDA3NDc3YTNkZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.KWFy9v79Z4wrGiuXLRZF3YE7B-KJGT3Lz6n8z-8nVLw"
 }
 
 enum MovieAPI {
@@ -52,22 +53,21 @@ extension MovieAPI: TargetType {
     }
     
     var task: Task {
-        return .requestParameters(parameters: urlParameters, encoding: JSONEncoding.default)
+        return .requestParameters(parameters: urlParameters, encoding: URLEncoding.queryString)
     }
-    
+
     var headers: [String : String]? {
-        return nil
+        return ["Authorization": "Bearer \(APIConfigs.accessToken)"]
     }
-    
+
     var urlParameters: [String: Any] {
         var body: [String: Any] = [:]
         switch self {
         case .upComing(let page), .topRated(let page), .popular(let page):
-            body["api_key"] = APIConfigs.key
             body["language"] = APIConfigs.language
             body["page"] = page
         case .trending:
-            body["api_key"] = APIConfigs.key
+            break
         }
         return body
     }

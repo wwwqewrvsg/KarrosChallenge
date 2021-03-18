@@ -22,4 +22,6 @@ target 'KarrosChallenge' do
   pod 'RxSwiftExt'
   pod 'RxDataSources'
   pod 'Moya/RxSwift'
+  pod 'SwiftyBeaver'
+
 end

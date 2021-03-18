@@ -12,7 +12,7 @@
 		77E24B1F7DF7AE2243C40C02 /* Pods_KarrosChallenge_KarrosChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A7A1A96EFC309D74868C0B /* Pods_KarrosChallenge_KarrosChallengeUITests.framework */; };
 		CD297CA22600982500DF513A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297CA12600982500DF513A /* AppDelegate.swift */; };
 		CD297CA42600982500DF513A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297CA32600982500DF513A /* SceneDelegate.swift */; };
-		CD297CA62600982500DF513A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297CA52600982500DF513A /* ViewController.swift */; };
+		CD297CA62600982500DF513A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297CA52600982500DF513A /* HomeViewController.swift */; };
 		CD297CA92600982500DF513A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD297CA72600982500DF513A /* Main.storyboard */; };
 		CD297CAB2600982C00DF513A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD297CAA2600982C00DF513A /* Assets.xcassets */; };
 		CD297CAE2600982C00DF513A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD297CAC2600982C00DF513A /* LaunchScreen.storyboard */; };
@@ -32,6 +32,8 @@
 		CD297DAA2600C00600DF513A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297DA92600C00600DF513A /* API.swift */; };
 		CD297DAF2600C43600DF513A /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297DAE2600C43600DF513A /* MediaType.swift */; };
 		CD297DB42600C63C00DF513A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297DB32600C63C00DF513A /* Service.swift */; };
+		CD297DD126032A4800DF513A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297DD026032A4800DF513A /* HomeViewModel.swift */; };
+		CD297DE5260333AA00DF513A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD297DE4260333AA00DF513A /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +66,7 @@
 		CD297C9E2600982500DF513A /* KarrosChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KarrosChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD297CA12600982500DF513A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD297CA32600982500DF513A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CD297CA52600982500DF513A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD297CA52600982500DF513A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CD297CA82600982500DF513A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD297CAA2600982C00DF513A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD297CAD2600982C00DF513A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -89,6 +91,8 @@
 		CD297DA92600C00600DF513A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		CD297DAE2600C43600DF513A /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
 		CD297DB32600C63C00DF513A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		CD297DD026032A4800DF513A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CD297DE4260333AA00DF513A /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,18 +172,15 @@
 			isa = PBXGroup;
 			children = (
 				CD297CEB2600ABC700DF513A /* README.md */,
+				CD297CAA2600982C00DF513A /* Assets.xcassets */,
+				CD297CAF2600982C00DF513A /* Info.plist */,
+				CD297DCA260329DC00DF513A /* AppDelegate */,
 				CD297DA82600BFA400DF513A /* Services */,
 				CD297D8E2600BC0F00DF513A /* Helpers */,
 				CD297D7B2600BB4900DF513A /* Utils */,
 				CD297D7A2600BA1200DF513A /* View */,
 				CD297CE72600A98B00DF513A /* Model */,
-				CD297CA12600982500DF513A /* AppDelegate.swift */,
-				CD297CA32600982500DF513A /* SceneDelegate.swift */,
-				CD297CA52600982500DF513A /* ViewController.swift */,
-				CD297CA72600982500DF513A /* Main.storyboard */,
-				CD297CAA2600982C00DF513A /* Assets.xcassets */,
-				CD297CAC2600982C00DF513A /* LaunchScreen.storyboard */,
-				CD297CAF2600982C00DF513A /* Info.plist */,
+				CD297DC9260329B500DF513A /* Scene */,
 			);
 			path = KarrosChallenge;
 			sourceTree = "<group>";
@@ -237,6 +238,7 @@
 			children = (
 				CD297D892600BC0200DF513A /* NSLayoutConstraintHelpers.swift */,
 				CD297DA02600BE1700DF513A /* ReusAbleCell.swift */,
+				CD297DE4260333AA00DF513A /* Logger.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -248,6 +250,34 @@
 				CD297DB32600C63C00DF513A /* Service.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		CD297DC9260329B500DF513A /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				CD297CA72600982500DF513A /* Main.storyboard */,
+				CD297CAC2600982C00DF513A /* LaunchScreen.storyboard */,
+				CD297DCC26032A2F00DF513A /* HomeVC */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		CD297DCA260329DC00DF513A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CD297CA12600982500DF513A /* AppDelegate.swift */,
+				CD297CA32600982500DF513A /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CD297DCC26032A2F00DF513A /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				CD297DD026032A4800DF513A /* HomeViewModel.swift */,
+				CD297CA52600982500DF513A /* HomeViewController.swift */,
+			);
+			path = HomeVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -489,10 +519,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD297DD126032A4800DF513A /* HomeViewModel.swift in Sources */,
 				CD297DAF2600C43600DF513A /* MediaType.swift in Sources */,
 				CD297D7D2600BB6300DF513A /* UICollectionView+Utils.swift in Sources */,
 				CD297D612600B47B00DF513A /* MediaList.swift in Sources */,
-				CD297CA62600982500DF513A /* ViewController.swift in Sources */,
+				CD297CA62600982500DF513A /* HomeViewController.swift in Sources */,
 				CD297D992600BD1500DF513A /* NSObject+Utils.swift in Sources */,
 				CD297CA22600982500DF513A /* AppDelegate.swift in Sources */,
 				CD297CA42600982500DF513A /* SceneDelegate.swift in Sources */,
@@ -501,6 +532,7 @@
 				CD297DB42600C63C00DF513A /* Service.swift in Sources */,
 				CD297D822600BBD400DF513A /* UIDevice+Utils.swift in Sources */,
 				CD297D8A2600BC0200DF513A /* NSLayoutConstraintHelpers.swift in Sources */,
+				CD297DE5260333AA00DF513A /* Logger.swift in Sources */,
 				CD297D712600B4E500DF513A /* OriginalLanguage.swift in Sources */,
 				CD297D902600BC4D00DF513A /* BaseCollectionView.swift in Sources */,
 				CD297DA12600BE1700DF513A /* ReusAbleCell.swift in Sources */,

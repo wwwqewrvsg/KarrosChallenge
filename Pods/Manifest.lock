@@ -24,6 +24,7 @@ PODS:
   - RxSwiftExt/RxCocoa (5.2.0):
     - RxCocoa (~> 5.0)
     - RxSwiftExt/Core
+  - SwiftyBeaver (1.9.3)
 
 DEPENDENCIES:
   - Moya/RxSwift
@@ -31,6 +32,7 @@ DEPENDENCIES:
   - RxDataSources
   - RxSwift (~> 5)
   - RxSwiftExt
+  - SwiftyBeaver
 
 SPEC REPOS:
   trunk:
@@ -42,6 +44,7 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - RxSwiftExt
+    - SwiftyBeaver
 
 SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
@@ -52,7 +55,8 @@ SPEC CHECKSUMS:
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 1e2e1f9570186967f617e49128ed26ccf1bafc8e
   RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
+  SwiftyBeaver: 2e8acd6fc90c6d0a27055867a290794926d57c02
 
-PODFILE CHECKSUM: 10d7e95bdfff05563b0ae5c7eda98af5ca472f67
+PODFILE CHECKSUM: f016fe604f0bbd59debac54400e87aac753f95c8
 
 COCOAPODS: 1.10.1
